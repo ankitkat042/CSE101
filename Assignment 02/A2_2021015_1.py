@@ -6,7 +6,6 @@ def word_count(fname):
             
             for key in words:
                 myDict[key] = words.count(key)
-    
     return myDict
 
 def word_unique(fname):
