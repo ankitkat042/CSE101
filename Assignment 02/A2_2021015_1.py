@@ -9,7 +9,6 @@ def word_count(fname):
     
     return myDict
 
-
 def word_unique(fname):
     
     with open(fname) as f:
@@ -21,7 +20,6 @@ def word_unique(fname):
     
     return finaltxt
 
-    
 def replace(fname, word1,word2):
     strlist=[]
     f= open(fname, 'r')
@@ -46,7 +44,6 @@ def replace(fname, word1,word2):
 
 
 filename="runtime/question1_input.txt"
-
 while True:
     print('''\n--------------------------------
 Enter your choice:
@@ -90,6 +87,3 @@ Enter your choice:
     elif n==5:
         print("program is exiting...\n")
         break
-
-
-
